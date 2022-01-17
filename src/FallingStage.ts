@@ -49,8 +49,8 @@ class FallingStage {
       // walls
 
       Bodies.rectangle(width/2, height + 26, width, 50, { isStatic: true }),
-      Bodies.rectangle(800, 300, 50, 600, { isStatic: true }),
-      Bodies.rectangle(0, 300, 50, 600, { isStatic: true })
+      Bodies.rectangle(width + 200, height / 2, 50, height + 200, { isStatic: true }),
+      Bodies.rectangle(-200, height/2, 50, height + 200, { isStatic: true })
   ]);
 
     // add mouse control

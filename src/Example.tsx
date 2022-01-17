@@ -4,10 +4,13 @@ import styled from 'styled-components';
 import FallingStage from './FallingStage';
 
 const Viewport = styled.div`
-  width: 800px;
-  height: 800px;
+  width: 1200px;
+  height: 900px;
   position: relative;
   background: white;
+  border: 1px solid #383B23;
+  border-radius: 20px;
+  overflow: hidden;
 `
 
 const Example = () =>  {
