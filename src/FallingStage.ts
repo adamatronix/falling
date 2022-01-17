@@ -38,7 +38,8 @@ class FallingStage {
         showAngleIndicator: false,
         wireframes: false,
         showBounds: false,
-        background: 'transparent'
+        background: 'transparent',
+        pixelRatio: 2
       }
     })
 
