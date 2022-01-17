@@ -1,17 +1,17 @@
 import { Bodies, Body } from "matter-js";
-import detoxImage from './assets/detox.jpg';
 
 class Bar {
   body:Body;
+  type:String;
 
-  constructor(x:number,y:number) {
-
-    this.body = Bodies.rectangle(x, y, 600, 154 ,{
+  constructor(type:string, width:number, height:number, image:string) {
+    this.type = type;
+    this.body = Bodies.rectangle(0, 0, width, height ,{
       render: {
           sprite: {
               xScale: 1,
               yScale: 1,
-              texture: detoxImage
+              texture: image
           }
       }
     });
