@@ -1,15 +1,26 @@
 {
-  "name": "ts-parcel-boilerplate",
+  "name": "@adamatronix/falling",
   "version": "1.0.0",
-  "description": "A starting point for any typescript based project",
+  "description": "Falling matterjs bodies",
   "source": "src/index.ts",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
+  "main": "dist/index.js",
+  "targets": {
+    "example": {
+      "source": "src/index.html",
+      "publicUrl": "./",
+      "distDir": "serve"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/index.html --dist-dir temp",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "compile": "tsc"
   },
   "author": "",
   "license": "ISC",

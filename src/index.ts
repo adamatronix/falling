@@ -1,6 +1,7 @@
-
-import Example from "./Example/Example"; 
+import FallingStage from "./FallingStage";
+import Bar from "./Bar";
 
 export {
-  Example
+  FallingStage,
+  Bar
 }
