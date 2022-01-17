@@ -1,0 +1,13 @@
+diff --git a/node_modules/@types/matter-js/index.d.ts b/node_modules/@types/matter-js/index.d.ts
+index 81578c1..1cbf0ee 100755
+--- a/node_modules/@types/matter-js/index.d.ts
++++ b/node_modules/@types/matter-js/index.d.ts
+@@ -2255,7 +2255,7 @@ declare namespace Matter {
+         * @property constraint
+         * @type constraint
+         */
+-        constraint?: Constraint | undefined;
++        constraint?: IConstraintDefinition | undefined;
+ 
+         /**
+         * An `Object` that specifies the collision filter properties.
