@@ -29,7 +29,7 @@ const Example = () =>  {
 
   
   const onAdd = () => {
-    stage.current.add(new Bar('detox',600,154,detoxImage));
+    stage.current.add(new Bar('detox',390,100.1,detoxImage, 0.65));
   }
 
   const onRemove = () => {
