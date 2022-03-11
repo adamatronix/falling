@@ -1,6 +1,6 @@
 {
   "name": "@adamatronix/falling",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Falling matterjs bodies",
   "source": "src/index.ts",
   "main": "dist/index.js",
